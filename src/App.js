@@ -20,7 +20,7 @@ function App() {
       >
         Change to {newButtonColor}
       </button>
-      <input type='checkbox' onClick={toggleButton} value={isEnabled} />
+      <input type='checkbox' onChange={toggleButton} value={isEnabled} />
     </div>
   );
 }
